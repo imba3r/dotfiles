@@ -2,5 +2,16 @@
     "editor.fontFamily": "'Fira Mono'",
     "editor.fontSize": 18,
     "workbench.colorTheme": "Tomorrow Night",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#1A2327",
+        "panel.background": "#1A2327",
+        "sideBar.background": "#222D32",
+        "activityBar.background": "#1A2327",
+        "tab.activeBackground": "#1A2327",
+        "tab.inactiveBackground": "#222D32",
+        "editorGroupHeader.tabsBackground": "#222D32",
+        "editorGroup.border": "#1A2327",
+        "editor.background": "#1A2327"
+    },
     "window.menuBarVisibility": "toggle",
 }
