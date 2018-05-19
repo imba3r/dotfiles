@@ -46,7 +46,9 @@ Xft.hintstyle: hintslight
 rofi.font: Fira Mono Regular 14
 rofi.bw: 2
 rofi.color-enabled: true
-rofi.color-window: #2F343F, #7A8FA7, #7A8FA7
-rofi.color-normal: #2F343F, #7A8FA7, #2F343F, #2F343F, #FFFFFF
-rofi.color-active: #2F343F, #53A6A6, #2F343F, #287373, #FFFFFF
-rofi.color-urgent: #2F343F, #CF4F88, #2F343F, #8A2F58, #FFFFFF
+!                  'bg'   , 'bd'   , 'sep'
+rofi.color-window: #222D32, #1A2327, #1A2327
+! State:           'bg'   , 'fg'   , 'bgalt', 'hlbg' , 'hlfg'
+rofi.color-normal: #222D32, #FAFBFC, #1A2327, #00BCD4, #FAFBFC
+rofi.color-active: #222D32, #53A6A6, #1A2327, #287373, #FAFBFC
+rofi.color-urgent: #222D32, #CF4F88, #1A2327, #8A2F58, #FAFBFC
