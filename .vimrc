@@ -1,12 +1,14 @@
 syntax enable 
 
 colorscheme Tomorrow-Night   
-
 set t_Co=256		   
 set term=rxvt-unicode-256color
+
+set mouse=a    " enable the mouse
 set number     " show linenumbers
 set cursorline " highlight current line
 set showmatch  " highlight matching [{()}]
+set clipboard=unnamedplus " use X clipboard
 
 " searching
 set hlsearch   " highlight all search results
