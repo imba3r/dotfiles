@@ -277,11 +277,21 @@
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
-          <name>Konqueror</name>
+          <name>Rofi</name>
         </startupnotify>
         <command>rofi -show-icons true -show drun</command>
       </action>
     </keybind>
+    <keybind key="W-Return">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>URxvt</name>
+        </startupnotify>
+        <command>urxvtc</command>
+      </action>
+    </keybind>
+
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>

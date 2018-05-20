@@ -40,37 +40,12 @@ export LESS_TERMCAP_so=$'\E[38;5;246m' \
 export LESS_TERMCAP_ue=$'\E[0m' \
 export LESS_TERMCAP_us=$'\E[04;38;5;146m' \
 
-# XDG default dirs
-export XDG_CACHE_HOME="$HOME/.cache"
-export XDG_CONFIG_HOME="$HOME/.config"
-export XDG_DATA_HOME="$HOME/.local/share"
-
 # setup environment
 export EDITOR="vim"
 export FCEDIT="vim"
 export PAGER="/usr/bin/less -R"
 export SYSTEMD_PAGER="/usr/bin/less -R"
 export LESSHISTFILE=-
-
-# dev stuff
-export GOPATH="$HOME/Projects/go"
-export PATH=$PATH:"$GOPATH/bin"
-export YARNPATH=$HOME/.yarn
-export PATH=$PATH:"$YARNPATH/bin"
-
-# keepass
-export KP_DATABASE_PATH="${HOME}/.passwords.kdbx"
-export KP_PASSWORD_FILE="${HOME}/.passwords.kdbx.credentials"
-KP_DATABASE_SOURCE="${HOME}/Dropbox/Important/Keepass/passwords.kdbx"
-if [ -f "${KP_DATABASE_SOURCE}" ]; then
-    ln -sf "$KP_DATABASE_SOURCE" "$KP_DATABASE_PATH"
-fi
-
-# improve appearance
-export GDK_USE_XFT=1
-export QT_XFT=true
-export QT_QPA_PLATFORMTHEME=qt5ct
-export _JAVA_AWT_WM_NONREPARENTING=1
 
 # Colorize `grep` and `ls`
 alias grep='grep --color=auto'

@@ -1,0 +1,5 @@
+hash firefox && firefox &
+hash keepassxc && keepassxc &
+hash unlock-keepass-db && unlock-keepass-db &
+hash feh && feh --bg-fill ~/.wallpaper &
+hash urxvtd && urxvtd &
