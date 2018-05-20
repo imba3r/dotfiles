@@ -11,7 +11,11 @@
         "tab.inactiveBackground": "#222D32",
         "editorGroupHeader.tabsBackground": "#222D32",
         "editorGroup.border": "#1A2327",
-        "editor.background": "#1A2327"
+        "editor.background": "#1A2327",
+        "input.background": "#1A2327",
+        "input.border": "#222D32",
+        "editor.lineHighlightBackground": "#222D32",
+        "editor.selectionBackground": "#222D32"
     },
     "window.menuBarVisibility": "toggle",
 }
