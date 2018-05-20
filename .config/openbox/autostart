@@ -1,5 +1,5 @@
 hash firefox && firefox &
-hash keepassxc && keepassxc &
+hash keepassxc && keepassxc ~/.passwords.kdbx &
 hash unlock-keepass-db && unlock-keepass-db &
 hash feh && feh --bg-fill ~/.wallpaper &
 hash urxvtd && urxvtd &
