@@ -52,6 +52,7 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias ls='ls --color=auto --group-directories-first'
+alias ip='ip -c'
 
 # ls aliases
 alias ll="ls -lh"
@@ -69,9 +70,7 @@ alias reboot='systemctl reboot'
 alias pacnew='find / -regextype posix-extended -regex ".+\.pac(new|save|orig)" 2> /dev/null'
 alias modified-config-files='pacman -Q | pacman -Qii | awk '\''{if ($1 == "MODIFIED") print $2}'\'''
 alias pacaur='pacaur --noconfirm --noedit'
-function remove-orphans {
-    sudo pacman -Rns $(pacman -Qqdt)
-}
+alias remove-orphans='sudo pacman -Rns $(pacman -Qqdt)'
 
 # other aliases
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
